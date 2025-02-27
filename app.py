@@ -6,7 +6,7 @@ import plotly.express as px
 st.set_page_config(page_title="Tire Market Dashboard", layout="wide")
 
 # Load dataset
-df = pd.read_csv(r"C:\Users\ZA87447\Downloads\2024dataset_2countries_3tiresizes.csv")
+df = pd.read_csv("Dataset/2024dataset_2countries_3tiresizes.csv")
 
 # Sidebar Filters with Icons
 st.sidebar.header("🔍 Filters")
